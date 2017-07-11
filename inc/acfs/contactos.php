@@ -1,4 +1,5 @@
 <?php
+
 if( function_exists('acf_add_local_field_group') ):
 
 	acf_add_local_field_group(array (
@@ -7,8 +8,8 @@ if( function_exists('acf_add_local_field_group') ):
 		'fields' => array (
 			array (
 				'key' => 'field_5964a39152256',
-				'label' => 'email',
-				'name' => 'email',
+				'label' => 'Email',
+				'name' => 'mgwpcontacto_email',
 				'type' => 'email',
 				'instructions' => 'Indique el email del contacto',
 				'required' => 0,
