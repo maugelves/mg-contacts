@@ -122,6 +122,9 @@ class Contacts
 				$args = array(100, 'auto');
 				the_post_thumbnail( $args );
 				break;
+			case 'email':
+				the_field('mgwpcontacto_email', $post_ID);
+				break;
 		endswitch;
 
 	}
